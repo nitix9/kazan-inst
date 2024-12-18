@@ -3,7 +3,7 @@
         <nav>
             <div class="container-head">
                 <div class="head-menu">
-                    <div class="logo"><img src="..\image\logo.svg"></div>
+                    <div class="logo"><NuxtLink to="/"><img src="..\image\logo.svg"></NuxtLink></div>
                     <div class="second-logo"><img src="..\image\priority.svg"></div>
                     <div class="burger-container">
                         <div @click="getClassStatus" class="burger" :class="{ active: isActive }"><span></span></div>
@@ -18,10 +18,10 @@
                             <li>Студентам</li>
                         </div>
                         <div class="menu-item">
-                            <li>Абитуриентам</li>
+                            <li><NuxtLink to="/abiturients">Абитуриентам</NuxtLink></li>
                         </div>
                         <div class="menu-item">
-                            <li>Школьникам</li>
+                            <li><NuxtLink to="/school">Школьникам</NuxtLink></li>
                         </div>
                         <div class="menu-item">
                             <li>Здравохранение</li>
@@ -106,7 +106,13 @@
     src: url("../fonts/Inter_28pt-Light.ttf");
     font-weight: 301;
 }
-
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter_28pt-Bold.ttf");
+    font-weight: 700;
+}
+a{color: white;
+    text-decoration: none;}
 .container-lcont{display: flex;justify-content: center;padding-top: 15px;}
 .last-contacts{display: flex;justify-content: space-between;}
 .last-contacts div:last-child{max-width: 324px;padding-left: 20px;}
