@@ -95,7 +95,7 @@
 .title-screen{display: flex;justify-content: center;padding-top: 68px;padding-bottom: 40px;}
 .title-screen h2{color: rgb(4, 58, 106);font-family: Inter;font-weight: 400;font-size: 2.5rem;}
 .news-container{display: flex;flex-direction: column;align-items: center;}
-.first-screen{background:url("../image/firstscreen.png") no-repeat,linear-gradient(45deg, rgba(0,94,159,1) 0%,rgba(0,94,161,1) 18%,rgba(37,88,165,1) 28%,rgba(37,88,165,1) 28%,rgba(37,88,165,1) 51%,rgba(0,59,111,1) 55%,rgba(8,50,89,1) 64%,rgba(0,59,111,1) 97%);;width: 100%;height: 675px;display: flex;flex-direction: column;align-items: center;background-position: center center;}
+.first-screen{background:url("\image\firstscreen.png") no-repeat,linear-gradient(45deg, rgba(0,94,159,1) 0%,rgba(0,94,161,1) 18%,rgba(37,88,165,1) 28%,rgba(37,88,165,1) 28%,rgba(37,88,165,1) 51%,rgba(0,59,111,1) 55%,rgba(8,50,89,1) 64%,rgba(0,59,111,1) 97%);;width: 100%;height: 675px;display: flex;flex-direction: column;align-items: center;background-position: center center;}
 .title-container{display: flex;flex-direction: column;align-items: center;height: 410px;justify-content: space-between;min-width: 757px;padding-left: 25px;}
 .desc-title{display: flex;justify-content: space-between;width: 100%;}
 .main-title{padding-top: 64px;}
