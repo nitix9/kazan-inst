@@ -30,10 +30,10 @@
                 <h2>Наши программы</h2>
             </div>
             <div class="program-container">
-                <div class="wrapper"><img src="../image/program1.png"></div>
-                <div class="wrapper"><img src="../image/program2.png"></div>
-                <div class="wrapper"><img src="../image/program3.png"></div>
-                <div class="wrapper"><img src="../image/program4.png"></div>
+                <div class="wrapper"><img src="/image/program1.png"></div>
+                <div class="wrapper"><img src="/image/program2.png"></div>
+                <div class="wrapper"><img src="/image/program3.png"></div>
+                <div class="wrapper"><img src="/image/program4.png"></div>
             </div>
         </div>
         <div class="univin-num">
@@ -42,28 +42,28 @@
             </div>
             <div class="num-container">
                 <div class="num-wrap">
-                    <div class="pict-wrap"><img src="../image/number4.svg"></div>
+                    <div class="pict-wrap"><img src="/image/number4.svg"></div>
                     <div class="desc-pic">
                         <p>более 47 000
                             общий контингент</p>
                     </div>
                 </div>
                 <div class="num-wrap">
-                    <div class="pict-wrap"><img src="../image/number2.svg"></div>
+                    <div class="pict-wrap"><img src="/image/number2.svg"></div>
                     <div class="desc-pic">
                         <p>более 400
                             учебных лабораторий</p>
                     </div>
                 </div>
                 <div class="num-wrap">
-                    <div class="pict-wrap"><img src="../image/number3.svg"></div>
+                    <div class="pict-wrap"><img src="/image/number3.svg"></div>
                     <div class="desc-pic">
                         <p>более 16 000
                             мест в общежитии</p>
                     </div>
                 </div>
                 <div class="num-wrap">
-                    <div class="pict-wrap"><img src="../image/number1.svg"></div>
+                    <div class="pict-wrap"><img src="/image/number1.svg"></div>
                     <div class="desc-pic">
                         <p>более 600
                             академических программ</p>
